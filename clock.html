@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CLOCK</title>
+    <style>
+      input {
+        background-color: #FFDD56;
+        border: 1px solid #FFAA2D;
+        height: 20px;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='DomClocks' style='width: 400px; float: left;'>
+      <div id='Dom1' style='position: relative; width: 300px; height: 350px; margin: 20px;'>
+        <input id='Dom1Start' type='button' value='старт' style='margin-left: 10px;'>
+        <input id='Dom1Stop' type='button' value='стоп' style='margin-left: 10px;'>
+      </div>
+      <div id='Dom2' style='position: relative; width: 300px; height: 350px; margin: 20px;'>
+        <input id='Dom2Start' type='button' value='старт' style='margin-left: 10px;'>
+        <input id='Dom2Stop' type='button' value='стоп' style='margin-left: 10px;'>
+      </div>
+    </div>
+    <div id='SvgClocks' style='width: 400px; float: left;'>
+      <div id='Svg1' style='position: relative; width: 300px; height: 350px; margin: 20px;'>
+        <input id='Svg1Start' type='button' value='старт' style='margin-left: 10px;'>
+        <input id='Svg1Stop' type='button' value='стоп' style='margin-left: 10px;'>
+      </div>
+      <div id='Svg2' style='position: relative; width: 300px; height: 350px; margin: 20px;'>
+        <input id='Svg2Start' type='button' value='старт' style='margin-left: 10px;'>
+        <input id='Svg2Stop' type='button' value='стоп' style='margin-left: 10px;'>
+      </div>
+    </div>
+    <div id='CanvasClocks' style='width: 400px; float: left;'>
+      <div id='Canvas1' style='position: relative; width: 300px; height: 350px; margin: 20px;'>
+        <input id='Canvas1Start' type='button' value='старт' style='margin-left: 10px;'>
+        <input id='Canvas1Stop' type='button' value='стоп' style='margin-left: 10px;'>
+      </div>
+      <div id='Canvas2' style='position: relative; width: 300px; height: 350px; margin: 20px;'>
+        <input id='Canvas2Start' type='button' value='старт' style='margin-left: 10px;'>
+        <input id='Canvas2Stop' type='button' value='стоп' style='margin-left: 10px;'>
+      </div>
+    </div>
+
+    <script src="ClockViewDOM.js"></script>
+    <script src="ClockViewSVG.js"></script>
+    <script src="ClockViewCanvas.js"></script>
+    <script src="Clock.js"></script>
+    <script src="ClockControllerButtons.js"></script>
+
+
+  </body>
+</html>
